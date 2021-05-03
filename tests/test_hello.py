@@ -1,6 +1,6 @@
 import sys
 
-sys.path.insert(0,'D:/m1work/test/GithubActions/MyFirstGithubActions')
+sys.path.insert(0,'../')
 
 from hello import hello
 
