@@ -17,7 +17,7 @@ def test_hello_default(capsys):
     assert out == "Hello,World!\n"
 
 def test_hello_with_name(capsys):
-    hello("サザエ")
-    hello("カツオ")
+    hello("Shin")
+    hello("Kyoto")
     out, err = capsys.readouterr()
-    assert out == "Hello,サザエ!\n" "Hello,カツオ!\n"
+    assert out == "Hello,Shin!\n" "Hello,Kyoto!\n"
